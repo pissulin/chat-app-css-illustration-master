@@ -58,9 +58,10 @@
 .container--left .celular--header {
     background: linear-gradient(90deg,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     width: 100%;
-    height: 60px;
+    height: 70px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+
 }
 
 .container--left .celular--header .header--retangulo {
@@ -73,6 +74,37 @@
 
 }
 
+.container--left .celular--header .seta {
+    width: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.container--left .celular--header .avatar {
+    width: 30px;
+    border-radius: 50%;
+    border: solid hsl(0, 0%, 100%) 2px;
+    margin: 10px 5px 0;
+}
+
+.container--left .celular--header p {
+    display: inline-block;
+    color:hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+    line-height: 15px;
+}
+
+.container--left .celular--header p span {
+    font-size: 0.5rem;
+    color:hsl(0, 0%, 80%);
+}
+
+.container--left .celular--header .menu {
+   width: 5px;
+   margin-left: 60px;
+   margin-bottom: 5px;
+}
+
 .container--left .celular--input {
     width: 92%;
     height: 35px;
@@ -80,6 +112,7 @@
     border-radius: 20px;
     margin: 420px auto 0;
     position: relative;
+    bottom: 45px;
     
 }
 
