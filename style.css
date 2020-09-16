@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .container--left .celular--header .seta {
@@ -109,7 +109,7 @@
 
 .container--left .celular--header .menu {
    width: 10px;
-   margin-left: 60px;
+   margin-left: 70px;
   /* margin-bottom: 8px;*/
 }
 
