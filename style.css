@@ -74,24 +74,32 @@
 
 }
 
+.container--left .header--usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .container--left .celular--header .seta {
     width: 10px;
     margin-left: 15px;
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
 }
 
 .container--left .celular--header .avatar {
     width: 30px;
     border-radius: 50%;
     border: solid hsl(0, 0%, 100%) 2px;
-    margin: 10px 5px 0;
+    margin: 0 5px ;
 }
 
 .container--left .celular--header p {
     display: inline-block;
     color:hsl(0, 0%, 100%);
     font-size: 0.7rem;
-    line-height: 15px;
+    line-height: 14px;
+   /* margin-bottom: 30px;*/
 }
 
 .container--left .celular--header p span {
@@ -102,7 +110,7 @@
 .container--left .celular--header .menu {
    width: 10px;
    margin-left: 60px;
-   margin-bottom: 8px;
+  /* margin-bottom: 8px;*/
 }
 
 .container--left .celular--input {
