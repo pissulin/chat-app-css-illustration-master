@@ -58,7 +58,7 @@
 .container--left .celular--header {
     background: linear-gradient(90deg,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     width: 100%;
-    height: 70px;
+    height: 60px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 .container--left .celular--header .seta {
@@ -113,6 +113,48 @@
   /* margin-bottom: 8px;*/
 }
 
+.campo--texto .texto--left {
+    background-color:hsla(293, 100%, 63%, 0.082);
+    width: 150px;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.campo--texto .texto--left p {
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: hsla(293, 86%, 37%, 0.692) ;
+}
+
+.campo--texto .texto--right {
+    background-color:hsl(0, 0%, 100%);
+    width: 150px;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 70px;
+}
+
+.campo--texto .texto--right p {
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%) ;
+}
+
+.fotos--cachorros {
+    display: flex;
+    justify-content: space-between;    
+    width: 150px;
+    margin: 10px 0px 10px 70px;
+}
+
+.fotos--cachorros img {
+    width: 45px;
+    border-radius: 10px;
+}
+
 .container--left .celular--input {
     width: 92%;
     height: 35px;
@@ -120,8 +162,8 @@
     border-radius: 20px;
     margin: 420px auto 0;
     position: relative;
-    bottom: 55px;
-    
+    bottom: 410px;
+       
 }
 
 .container--left .celular--input img {
@@ -155,4 +197,49 @@
 .container--right p {
     color:hsl(270, 7%, 64%);
     font-weight: 400;
+}
+
+.preco {
+    position: relative;
+    padding: 5px 10px 10px;
+    background: linear-gradient(90deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.preco p {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.6rem;
+    margin-right: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.preco p span {
+    font-weight: 700;
+    margin-left: 10px;
+    position: absolute;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.preco p .span2 {
+    position: absolute;
+    right: -65px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.preco img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
